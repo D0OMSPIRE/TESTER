@@ -1,6 +1,7 @@
 ## TESTER.luau
 
 TESTER is a testing framework for testing your code, similar to Google's GTest.
+https://google.github.io/googletest/
 
 ### Usage
 Create and run tests using `TESTER.CREATE_TEST()` and `TESTER.RUN_TESTS()`
