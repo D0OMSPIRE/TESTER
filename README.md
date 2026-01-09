@@ -37,6 +37,9 @@ Why are we initializing a static module, and then calling require?
 In TESTER it uses context based function environments to store values inside
 the scope of the `CREATE_TEST` function. It stores things like initialize modules,
 which allow us to just call the module's name as a global within scope of our test.
+We also want to "isolate" our modules from interfering with actual game code,
+we are running tests on modules that have not been initialized, then suddenly if a value
+changes from outside the test environment, it can break the test.
 
 If your module scripts have dependencies, make sure to initialize them inside `TESTER.INITIALIZE`.
 ```lua
