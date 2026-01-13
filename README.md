@@ -1,5 +1,7 @@
 ## TESTER.luau
 
+For ROBLOX <img src="[path/to/my_icon.png](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Roblox_%282025%29_%28App_Icon%29.svg/1200px-Roblox_%282025%29_%28App_Icon%29.svg.png)" width="20" height="20" alt="ROBLOX ICON">
+
 TESTER is a testing framework for testing your code, similar to Google's GTest.
 https://google.github.io/googletest/
 
